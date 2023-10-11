@@ -36,10 +36,10 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", ))
+	API_ID = int(os.environ.get("API_ID", ""))
 	API_HASH = os.environ.get("API_HASH", "")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozy_BOT")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "File_Share_iBot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001768075000"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1737202396"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","")
