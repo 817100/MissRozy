@@ -40,7 +40,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozy_BOT")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1001768075000))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001768075000"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1737202396"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001597165437")
